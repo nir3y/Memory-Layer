@@ -174,6 +174,7 @@ memory-layer/
 ├── test_memory.py         # 메모리 검색 테스트
 ├── test_embeddings.py     # 임베딩 모델 비교 테스트
 ├── requirements.txt       # Python 의존성
+├── LICENSE                # Apache License 2.0
 ├── conversations/         # 대화 마크다운 파일 저장소
 ├── memory/                # 사용자 프로필 (5개 MD 파일)
 └── memory_db/             # ChromaDB 벡터 DB 영구 저장소
@@ -187,3 +188,9 @@ memory-layer/
 - 회사 내부망 self-signed 인증서 환경을 위한 SSL 우회 처리가 포함되어 있습니다
 - 모든 처리가 로컬에서 이루어지므로 대화 내용이 외부로 전송되지 않습니다
 - 대화 파일 인코딩은 UTF-8, CP949, EUC-KR을 자동 감지합니다
+
+---
+
+## 라이선스
+
+이 프로젝트는 [Apache License 2.0](LICENSE)을 따릅니다.
